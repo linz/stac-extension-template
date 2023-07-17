@@ -17,7 +17,15 @@ This is the place to add a short introduction.
 -   [JSON Schema](json-schema/schema.json)
 -   [Changelog](./CHANGELOG.md)
 
-## Item Properties and Collection Fields
+## Fields
+
+The fields in the table below can be used in these parts of STAC documents:
+
+-   [ ] Catalogs
+-   [x] Collections
+-   [x] Item Properties (incl. Summaries in Collections)
+-   [x] Assets (for both Collections and Items, incl. Item Asset Definitions in Collections)
+-   [ ] Links
 
 | Field Name           | Type                      | Description |
 | -------------------- | ------------------------- | ----------- |
@@ -35,20 +43,20 @@ This is a much more detailed description of the field `template:new_field`...
 
 This is the introduction for the purpose and the content of the XYZ Object...
 
-| Field Name  | Type   | Description |
-| ----------- | ------ | ----------- |
-| x           | number | **REQUIRED**. Describe the required field... |
-| y           | number | **REQUIRED**. Describe the required field... |
-| z           | number | **REQUIRED**. Describe the required field... |
+| Field Name | Type   | Description |
+| ---------- | ------ | ----------- |
+| x          | number | **REQUIRED**. Describe the required field... |
+| y          | number | **REQUIRED**. Describe the required field... |
+| z          | number | **REQUIRED**. Describe the required field... |
 
 ## Relation types
 
 The following types should be used as applicable `rel` types in the
 [Link Object](https://github.com/radiantearth/stac-spec/tree/master/item-spec/item-spec.md#link-object).
 
-| Type                | Description |
-| ------------------- | ----------- |
-| fancy-rel-type      | This link points to a fancy resource. |
+| Type           | Description |
+| -------------- | ----------- |
+| fancy-rel-type | This link points to a fancy resource. |
 
 ## Contributing
 
