@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Inject env variables
-        uses: rlespinasse/github-slug-action@v4.4.1
+        uses: rlespinasse/github-slug-action@v4.5.0
       - uses: actions/checkout@v4
       - name: deploy JSON Schema for version ${{ env.GITHUB_REF_SLUG }}
         uses: peaceiris/actions-gh-pages@v4
